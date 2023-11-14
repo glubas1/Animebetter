@@ -1,0 +1,335 @@
+* {
+    margin: 0px; 
+ }
+ 
+ body {
+     font-family: 'Segoe UI';
+ }
+ 
+ .div-1 {
+     position: fixed;
+     z-index: 1;
+     width: 100%;
+     height: 70px;
+     background-color: black;
+     opacity: 100%;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+ }
+
+ .nome{
+    width: 250px;
+    justify-content: flex-end;
+    color: white;
+ }
+ .nome-site{
+    width: 250px;
+ }
+
+ 
+ nav, a{
+     color: white;
+     text-decoration: none;
+     padding: 10px;
+ }
+ 
+ .div-2 {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     height: 300px;
+     background-color: blue;
+ }
+ 
+ .melhores-1{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 100%;
+   height: 250px;
+   background-color: rgb(230, 217, 217);
+ }
+ .melhores-2{
+   display: flex;
+   width: 100%;
+   height: 50px;
+   background-color: rgb(230, 217, 217);
+   justify-content: center;
+   align-items:center;
+
+
+ }
+ 
+ .highlight-text {
+     font-size: 75px;
+     color: white;
+     text-shadow: 1px 1px 1px black;
+ }
+ 
+ .div-3{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: space-around;
+     padding-bottom: 50px;
+     padding-top: 30px;
+     
+     width: 100%;
+     height: 500px;
+     
+     background-color: rgb(230, 217, 217);
+     
+
+ }
+ .titulo{
+    width: 100%;
+    height: 50px;
+    background-color:  rgb(196, 25, 25);
+    text-align: center;
+ }
+ .div-login{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: flex-start;
+    padding: 80px;
+    background-color: rgb(196, 25, 25);
+
+ }
+ .form-group{
+
+
+ }
+ form{
+   background-color: rgb(230, 217, 217);
+ }
+ .login{
+   
+
+    border: 20px solid rgb(230, 217, 217);
+    border-radius: 3%;
+    width: 400px;
+    background-color: rgb(230, 217, 217);
+ }
+ .login-text{
+    display: flex;
+    width: 100%;
+
+    padding: 40px;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    
+ }
+ .div-login-2{
+    width: 400px;
+    height: 280px;
+    background-color: white;
+ }
+.card{
+    width: 300px;
+    height: 300px;
+}
+.card-body{
+
+   
+
+}
+.card-header{
+    background-color: rgb(169, 169, 245);
+}
+.card-content-area{
+    margin: 10px;
+    width: 200px;
+}
+.card-footer{
+    border: white;
+    
+}
+.recuperar-senha{
+    color:  black;
+
+}
+.cadastro{
+    color: black;
+
+}
+ section{
+    height: 200px;
+    width: 250px;
+    padding-right: 150px;
+
+ }
+ .section-container {
+    display: flex;
+    align-items: center;
+
+    width: 500px;
+    height: 200px;
+
+}
+.container-1{
+    width: 250px;
+    height: 100px;
+    background-color: aquamarine;
+    
+}
+ 
+ .highlight-image {
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+ .m-link{
+     color: olive;
+ }
+ 
+
+ .others{
+     padding: 10px;
+     float: left;
+     background-color: blue;
+ }
+ .img-others{
+     border-radius: 50%;
+     margin-right: 20px;
+     float: left;
+ 
+ }
+ .section-text {
+    width: 400px; 
+    padding: 100px;
+
+
+}
+ 
+ .div-4{
+     background-color: rgb(255, 0, 0);
+     width: 1
+     ;
+     height: 700px;
+
+ }
+
+
+ .d-blockw-100 {
+    width: 100%;
+    height: 700px;
+
+ }
+
+ 
+ .div-5{
+    display: flex;
+     width: 100%;
+     height: 300px;
+     background-image: url(footer.png);
+     background-position-y: 0%;
+     background-position-x: 50% ;
+     background-repeat:repeat;
+     background-size: auto;
+     box-shadow: 5px 5px 10px black;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+ .footer-img{
+    width: 100%;
+    height: 300px;
+
+ }
+ .footer-logo{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+    margin-bottom: 25px;
+ }
+ .menu-img{
+    width: 300px;
+    height: 300px;
+
+ }
+ .menu-img-2{
+    width: 250px;
+    height: 200px;
+    border-radius: 3%;
+    box-shadow: 3px 3px 10px black;
+ }
+ .menu-img:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease;
+ }
+ 
+ .page-img{
+    background-color: blue;
+ }
+ .top-5{
+    display:flex;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(230, 217, 217);
+    flex-direction: column;
+    justify-content: center;
+ }
+ .img-top{
+    width: 220px;
+    height: 300px;
+    border-radius: 3%;
+    box-shadow: 3px 3px 10px black;
+ }
+ .imagens-top{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 150px;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+ }
+ .top-text{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+ }
+ .img-top-text{
+    padding-top: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 220px;
+
+ }
+ 
+.redes{
+   display: flex;
+   width: 110px;
+   height: 40px;
+   justify-content: space-around;
+
+   
+   align-items: center;
+
+
+  
+}
+
+.logo-1{
+   width: 30px;
+   height: 30px;
+   opacity: 90%;
+   
+}
+.logo-text{
+   color: #ccc;
+}
+.nav-text{
+
+
+}

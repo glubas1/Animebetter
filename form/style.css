@@ -1,0 +1,14 @@
+body {
+    background-image: url("footer.png");
+    padding: 30px;
+}
+.card{
+
+}
+.card-header{
+    background-color: rgb(243, 31, 31);
+    color: white;
+}
+.card-body{
+    background-color: rgb(230, 217, 217);
+}
